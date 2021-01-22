@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ecra 3
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let item of itens">
+      <ion-avatar>
+        <ion-img [src]="item.img"></ion-img>
+      </ion-avatar>
+        <ion-label style="margin-left: 1%;">{{item.texto}}</ion-label>
+        <ion-label>{{item.numero}}</ion-label>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

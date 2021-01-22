@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+#block1 {
+  float:left;
+}
+
+#block2
+{
+  float:right;
+}
+
+#block11 {
+  padding: 10%;
+  background-color: darkgrey;
+  float: right;;
+  width: 200%;
+}
+
+#block22
+{
+  padding: 10%;
+  text-align: right;
+  background-color: darkkhaki;
+  float: left;
+  width: 200%;
+}

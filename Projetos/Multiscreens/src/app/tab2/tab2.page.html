@@ -1,0 +1,16 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ecra 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list *ngFor="let num of numeros">
+    <ion-item>
+      <ion-label>{{num}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
